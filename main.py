@@ -18,5 +18,5 @@ async def on_ready():
 async def on_message(message):
     if str(message.content) == "p.ping":
       await message.channel.send("ಠ_ಠ")
-
+    print(message)
 client.run('NzcwNzM2OTgzOTkwNzMwNzYz.X5h6wA.FOip2X10gkx_OZapvzvsj7W3hYE')
